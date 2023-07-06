@@ -1,0 +1,41 @@
+
+body {
+    background-color: #e4f4e2;
+}
+
+.info {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.login-form {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    background-color: #5DA9E9;
+    border-radius: 20px;
+}
+
+.login-p {
+    margin: 15px auto 5px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-inputs {
+    width: 80%;
+    height: 35px;
+    font-size: 18px;
+    background-color: #edf7ec;
+}
+
+.btn {
+    margin: 15px;
+    width: 50%;
+    height: 60px;
+    background-color: #325dfc;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}

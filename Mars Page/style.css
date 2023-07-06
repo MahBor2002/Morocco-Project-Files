@@ -1,0 +1,35 @@
+body {
+    background-image: url("daniele-colucci-OtXJhYjbKeg-unsplash.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    padding: 5px 8px;
+    background-color: rgb(126, 125, 52);
+    color: whitesmoke;
+    font-size: 24px;
+    border-radius: 10px;
+    font-family: inherit;
+    box-shadow: 4px 3px 8px 0px rgba(0, 0, 0, 0.371);
+}
+
+.btn:hover {
+    transform: scale(1.05) translate(0, -1px) rotate(-1deg);
+    box-shadow: 4px 3px 8px 0px rgba(0, 0, 0);
+    transition: 1s;
+}
+
+.underline {
+    border-bottom: 4px #e55d2a solid;
+    color: aliceblue;
+}
+
+.underline:hover {
+    border-bottom: 4px #ff642c solid;
+    color: rgb(188, 49, 49);
+    transition: 1s;
+}
