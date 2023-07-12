@@ -1,0 +1,88 @@
+.helpers {
+    /* Used to help students get an idea of how the website is built */
+    /* border: 5px solid red; */
+    border-radius: 30px;
+}
+
+body {
+    background: linear-gradient(180deg, #2681a2 -10%, #f72b8d 110%);
+    /* background-color: rgb(50, 113, 142); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first-container h1 {
+    font-size: 48px;
+}
+.first-container h3 {
+    font-size: 36px;
+}
+
+.first-container {
+    text-align: center;
+}
+
+span {
+    color: #37f2b3;
+}
+
+h1, h3, h4, p {
+    color: aliceblue;
+    font-weight: 600;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+}
+
+.person-img {
+    width: 400px;
+    border-radius: 200px;
+    border: 10px solid pink;
+}
+
+.title {
+    margin-top: 80px;
+}
+
+.gift-img {
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    border: 8px white solid;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.gift-img:hover {
+    background-image: url("giphy\ \(1\).gif");
+    transition: 0.1s;
+}
+
+.hot-img {
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    border: 8px white solid;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.hot-img:hover {
+    background-image: url("giphy\ \(4\).gif");
+    transition: 0.1s;
+}
+
+.dance-img {
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 600px;
+    border: 8px white solid;
+    border-radius: 25px;
+    margin: 0 auto 50px auto;
+}
+
+.dance-img:hover {
+    background-image: url("giphy\ \(5\).gif");
+    transition: 0.1s;
+}
